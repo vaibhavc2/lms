@@ -10,7 +10,7 @@ import errorMiddleware from './common/middlewares/error.middleware';
 import { globalApiRateLimiter } from './common/middlewares/rate-limiter.middleware';
 import versionMiddleware from './common/middlewares/version.middleware';
 import requestLogger from './common/middlewares/request-logger.middleware';
-import apiRouter from './routes/global.routes';
+import apiRouter from './global.routes';
 import { errorEmitter } from './common/utils/error-extras.util';
 
 const { isDev } = envConfig;
